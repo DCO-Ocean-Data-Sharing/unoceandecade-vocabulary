@@ -1,0 +1,494 @@
+@prefix : <http://purl.org/voc/unoceandecade#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/voc/unoceandecade#> a skos:ConceptScheme;
+  dct:title "UN Decade of Ocean Sciences 2021-2030: Challenges, Outcomes and Solution Areas"@en;
+  dct:creator [
+      a dct:Agent, sdo:Person;
+      sdo:name "Adam Leadbetter"@en;
+      sdo:url <https://github.com/adamml>
+  ];
+  dct:hasVersion [
+      a sdo:DigitalDocument;
+      sdo:name "HTML documentation"@en;
+      sdo:description "The version of this vocabulary linked to through this graph node is a rendering of the vocabulary in HTML format for human readability.";
+      sdo:url <https://dco-ocean-data-sharing.github.io/unoceandecade-vocabulary/index.html>
+  ];
+  dct:created "2026-07-22"^^xsd:date;
+  dct:modified "2026-07-23"^^xsd:date;
+  skos:hasTopConcept :QOy8Js, :LC251f, :saRGpW.
+
+:QOy8Js a skos:Concept;
+  skos:prefLabel "UN Ocean Decade Challenge"@en;
+  skos:definition "The Ocean Decade Challenges represent the highest level of the Ocean Decade action framework. They articulate the most immediate priorities for implementation and aim to unite partners in collective action, thus ensuring that the whole of the initiative is greater than the sum of its parts. In doing so, the Challenges shape the overall contribution of the Decade to the 2030 Agenda for Sustainable Development and other policy frameworks. The Challenges were distilled from discussions with stakeholders throughout the preparation phase of the Ocean Decade (2018-2020), including regional consultation workshops. They may evolve and change as issues are resolved over the course of the Decade; and new Challenges may be added as issues emerge. They formed the foundation and framework of the Vision 2030 process conducted in 2023-2024 and related outcomes report."@en;
+  skos:narrower :ok1YhP,
+         :ijOvYT,
+         :zSO9Li,
+         :yWqKgv,
+         :q8155u,
+         :sfpAXw,
+         :oAbaEY,
+         :bCYJmi,
+         :mVDokG,
+         :Xd6PGU;
+  skos:topConceptOf : ;
+  dct:created "2026-07-22"^^xsd:date;
+  dct:modified "2026-07-23"^^xsd:date .
+
+:LC251f a skos:Concept;
+  skos:prefLabel "UN Ocean Decade Outcome"@en;
+  skos:narrower :V9sJQA,
+         :RMaPyJ,
+         :PUJx4T,
+         :m6RMnm,
+         :AIJZ3U,
+         :yPHGUL,
+         :UzeSvO;
+  skos:topConceptOf :;
+  dct:created "2026-07-22"^^xsd:date;
+  dct:modified "2026-07-23"^^xsd:date .  
+
+:saRGpW a skos:Concept;
+    skos:prefLabel "UN Ocean Decade Solution Area"@en;
+    skos:definition "Ocean Decade Solutions are the translation of ocean knowledge, partnerships, innovation, and capacity generated through the Ocean Decade into coordinated, collective action that supports policy, planning, investment, and decision-making. Each Solution brings together multiple pathways, recognizing that lasting impact requires alignment across sectors and levels of implementation. The Ocean Decade Solutions are designed to support informed decision-making and policy development at global, regional, national, and local levels through tangible and actionable measures. Their primary purpose is to help policymakers, governments, ocean managers, practitioners, investors, and other stakeholders accelerate informed and inclusive decisions for ocean sustainability."@en;
+    skos:topConceptOf :;
+    skos:narrower :ghguns,
+                  :KT6YV8;
+    dct:source <https://oceandecade.org/news/accelerating-ocean-solutions-to-2030-and-beyond-from-knowledge-to-action-through-the-ocean-decade/>;
+  dct:created "2026-07-22"^^xsd:date;
+  dct:modified "2026-07-23"^^xsd:date .  
+  
+:ok1YhP a skos:Concept;
+  skos:prefLabel "Understand and beat marine pollution"@en;
+  skos:notation "Challenge 1";
+  skos:definition "Understand and map land and sea-based sources of pollutants and contaminants and their potential impacts on human health and ocean ecosystems and develop solutions to remove or mitigate them."@en;
+  skos:broader :QOy8Js;
+  skos:inScheme :;
+  dct:source <https://oceandecade.org/challenges/>;
+  dct:created "2026-07-22"^^xsd:date;
+  dct:modified "2026-07-23"^^xsd:date;
+  rdfs:seeAlso [
+      a sdo:DigitalDocument;
+      sdo:name "Ocean Decade Vision 2030 White Papers: Challenge 1: Understand and beat marine pollution"@en;
+      sdo:url <https://doi.org/10.25607/6m86-s908>;
+      sdo:datePublished "2024"^^xsd:gYear
+  ], [
+      a sdo:VideoObject;
+      sdo:name "Ocean Decade Challenge 1: Understand and beat marine pollution"@en;
+      sdo:url <https://www.youtube.com/watch?v=iVpC4yml-UM>
+  ], [
+      a sdo:DigitalDocument;
+      sdo:name "Understanding and beating marine pollution under Ocean Decade Vision 2030 Challenge 1"@en;
+      sdo:url <https://doi.org/10.1093/icesjms/fsaf009>;
+      sdo:datePublished "2025"^^xsd:gYear
+  ] .
+
+:ijOvYT a skos:Concept;
+  skos:prefLabel "Protect and restore ecosystems and biodiversity"@en;
+  skos:notation "Challenge 2";
+  skos:definition "Understand the effects of multiple stressors on ocean ecosystems, and develop solutions to monitor, protect, manage and restore ecosystems and their biodiversity under changing environmental, social and climate conditions."@en;
+  skos:broader :QOy8Js;
+  skos:inScheme :;
+  dct:source <https://oceandecade.org/challenges/>;
+  dct:created "2026-07-22"^^xsd:date;
+  dct:modified "2026-07-23"^^xsd:date;
+  rdfs:seeAlso [
+      a sdo:DigitalDocument;
+      sdo:name "Ocean Decade Vision 2030 White Papers: Challenge 2: Protect and restore ecosystems and biodiversity"@en;
+      sdo:url <https://doi.org/10.25607/y60m-4329>;
+      sdo:datePublished "2024"^^xsd:gYear
+  ], [
+      a sdo:VideoObject;
+      sdo:name "Ocean Decade Challenge 2: Protect and restore ecosystems and biodiversity"@en;
+      sdo:url <https://www.youtube.com/watch?v=-XTi0_267eM>
+  ], [
+      a sdo:DigitalDocument;
+      sdo:name "Capacity sharing to protect and restore ecosystems and biodiversity"@en;
+      sdo:url <https://doi.org/10.1093/icesjms/fsae187>;
+      sdo:datePublished "2025"^^xsd:gYear
+  ] .
+
+:zSO9Li a skos:Concept;
+  skos:prefLabel "Sustainably nourish the global population"@en;
+  skos:notation "Challenge 3";
+  skos:definition "Generate knowledge, support innovation and develop solutions to optimize the role of the ocean in sustainably nourishing the world’s population under changing environmental, social and climate conditions."@en;
+  skos:broader :QOy8Js;
+  skos:inScheme :;
+  dct:source <https://oceandecade.org/challenges/>;
+  dct:created "2026-07-22"^^xsd:date;
+  dct:modified "2026-07-23"^^xsd:date;
+  rdfs:seeAlso [
+      a sdo:DigitalDocument;
+      sdo:name "Ocean Decade Vision 2030 White Papers: Challenge 3: Sustainably nourish the global population"@en;
+      sdo:url <https://doi.org/10.25607/r7qs-a228>;
+      sdo:datePublished "2024"^^xsd:gYear
+  ], [
+      a sdo:VideoObject;
+      sdo:name "Ocean Decade Challenge 3: Sustainably Feed the Global Population"@en;
+      sdo:url <https://www.youtube.com/watch?v=ulk2EGWEWaI>
+  ], [
+      a sdo:DigitalDocument;
+      sdo:name "Charting a science course for the sustainable transformation of aquatic food systems"@en;
+      sdo:url <https://doi.org/10.1093/icesjms/fsae184>;
+      sdo:datePublished "2025"^^xsd:gYear
+  ] .
+
+:yWqKgv a skos:Concept;
+  skos:prefLabel "Develop a sustainable, resilient and equitable ocean economy"@en;
+  skos:notation "Challenge 4";
+  skos:definition "Generate knowledge, support innovation and multi-sectoral partnerships and develop solutions for equitable, resilient and sustainable development of the ocean economy under changing environmental, social and climate conditions."@en;
+  skos:broader :QOy8Js;
+  skos:inScheme :;
+  dct:source <https://oceandecade.org/challenges/>;
+  dct:created "2026-07-22"^^xsd:date;
+  dct:modified "2026-07-23"^^xsd:date;
+  rdfs:seeAlso [
+      a sdo:DigitalDocument;
+      sdo:name "Ocean Decade Vision 2030 White Papers: Challenge 4: Develop a sustainable and equitable ocean economy"@en;
+      sdo:url <https://doi.org/10.25607/2452-1r10>;
+      sdo:datePublished "2024"^^xsd:gYear
+  ], [
+      a sdo:Organization;
+      sdo:name "Decade Collaborative Centre Challenge 4 - Sustainable Blue Economy"@en;
+      sdo:url <https://oceandecade.org/actions/decade-collaborative-center-challenge-4-sustainable-ocean-economy/>
+  ] , [
+      a sdo:VideoObject;
+      sdo:name "Ocean Decade Challenge 4: Develop a sustainable and equitable ocean economy"@en;
+      sdo:url <https://www.youtube.com/watch?v=kujCuOngdNo>
+  ] .
+  
+:q8155u a skos:Concept;
+  skos:prefLabel "Unlock ocean-based solutions to climate change"@en;
+  skos:notation "Challenge 5";
+  skos:definition "Enhance understanding of the ocean-climate nexus and generate knowledge and solutions to mitigate, adapt and build resilience to the effects of climate change across all geographies and at all scales, and to improve services including predictions for the ocean, climate and weather."@en;
+  skos:broader :QOy8Js;
+  skos:inScheme :;
+  dct:source <https://oceandecade.org/challenges/>;
+  dct:created "2026-07-22"^^xsd:date;
+  dct:modified "2026-07-23"^^xsd:date;
+  rdfs:seeAlso [
+      a sdo:DigitalDocument;
+      sdo:name "Ocean Decade Vision 2030 White Papers: Challenge 5: Unlock ocean-based solutions to climate change"@en;
+      sdo:datePublished "2024"^^xsd:gYear;
+      sdo:url <https://doi.org/10.25607/kbtq-nm78>
+  ], [
+      a sdo:Organization;
+      sdo:name "Decade Collaborative Centre for Ocean-Climate Nexus and Coordination Amongst Decade Implementing Partners in P. R. China"@en;
+      sdo:url <https://oceandecade.org/actions/decade-collaborative-centre-for-ocean-climate-nexus-and-coordination-amongst-decade-implementing-partners-in-p-r-china-dcc-occ/>
+  ], [
+      a sdo:VideoObject;
+      sdo:name "Ocean Decade Challenge 5: Unlock ocean-based solutions to Climate Change"@en;
+      sdo:url <https://www.youtube.com/watch?v=6xCNtci1KlE>
+  ], [
+      a sdo:DigitalDocument;
+      sdo:name "Providing solutions to mitigate, adapt, and build resilience to the effects of climate change"@en;
+      sdo:url <https://doi.org/10.1093/icesjms/fsae170>;
+      sdo:datePublished "2025"^^xsd:gYear
+  ] .
+  
+:sfpAXw a skos:Concept;
+  skos:prefLabel "Increase community resilience to ocean and climate risks"@en;
+  skos:notation "Challenge 6";
+  skos:definition "Enhance multi-hazard early warning services for all geophysical, ecological, biological, weather, climate and anthropogenic related ocean and coastal hazards, and mainstream community preparedness and resilience."@en;
+  skos:broader :QOy8Js;
+  skos:inScheme :;
+  dct:source <https://oceandecade.org/challenges/>;
+  dct:created "2026-07-22"^^xsd:date;
+  dct:modified "2026-07-23"^^xsd:date;
+  rdfs:seeAlso [
+    a sdo:DigitalDocument;
+    sdo:name "Ocean Decade Vision 2030 White Papers: Challenge 6: Increase community resilience to ocean hazards"@en ;
+    sdo:datePublished "2024"^^xsd:gYear;
+    sdo:url <https://doi.org/10.25607/smm1-nq79>
+  ], [
+    a sdo:Organization;
+    sdo:name "Decade Collaborative Centre for Coastal Resilience"@en;
+    sdo:url <https://oceandecade.org/actions/decade-collaborative-centre-for-coastal-resilience-dcc-cr/>
+  ], [
+      a sdo:VideoObject;
+      sdo:name "Ocean Decade Challenge 6: Increase community resilience to ocean hazards"@en;
+      sdo:url <https://www.youtube.com/watch?v=jHZXutCxxDA>
+  ], [
+      a sdo:DigitalDocument;
+      sdo:name "UN Decade Challenge 6: navigating the waves of the future—enhancing community resilience to ocean-related hazards"@en;
+      sdo:url <https://doi.org/10.1093/icesjms/fsaf031>;
+      sdo:datePublished "2025"^^xsd:gYear
+  ]  .
+
+:oAbaEY a skos:Concept;
+  skos:prefLabel "Sustainably expand the Global Ocean Observing System"@en;
+  skos:notation "Challenge 7";
+  skos:definition "Ensure a sustainable and sustained ocean observing system across all ocean basins that delivers accessible, timely and actionable data and information to all users."@en;
+  skos:broader :QOy8Js;
+  skos:inScheme :;
+  dct:source <https://oceandecade.org/challenges/>;
+  dct:created "2026-07-22"^^xsd:date;
+  dct:modified "2026-07-23"^^xsd:date;
+  rdfs:seeAlso [
+    a sdo:DigitalDocument;
+    sdo:name "Ocean Decade Vision 2030 White Papers: Challenge 7: Sustainably expand the Global Ocean Observing System"@en ;
+    sdo:datePublished "2024"^^xsd:gYear;
+    sdo:url <https://doi.org/10.25607/brxb-kr45>
+  ], [
+    a sdo:Organization;
+    sdo:name "Decade Coordination Office for Ocean Observing"@en;
+    sdo:url <https://oceandecade.org/actions/decade-coordination-office-for-ocean-observing/>
+  ], [
+      a sdo:VideoObject;
+      sdo:name "Ocean Decade Challenge 7: Expand the global ocean observing system"@en;
+      sdo:url <https://www.youtube.com/watch?v=Npz-5yxcm5A>
+  ], [
+      a sdo:DigitalDocument;
+      sdo:name "The cross-cutting role of Ocean Decade Challenge 7 in achieving a sustainable and resilient global ocean observing system"@en;
+      sdo:url <https://doi.org/10.1093/icesjms/fsaf079>;
+      sdo:datePublished "2025"^^xsd:gYear
+  ] .
+
+:bCYJmi a skos:Concept;
+  skos:prefLabel "Create a digital representation of the ocean"@en;
+  skos:notation "Challenge 8";
+  skos:definition "Through multi-stakeholder collaboration, develop a comprehensive digital representation of the ocean, including a dynamic ocean map, which provides free and open access for exploring, discovering, and visualizing past, current, and future ocean conditions in a manner relevant to diverse stakeholders."@en;
+  skos:broader :QOy8Js;
+  skos:inScheme :;
+  dct:source <https://oceandecade.org/challenges/>;
+  dct:created "2026-07-22"^^xsd:date;
+  dct:modified "2026-07-23"^^xsd:date;
+  rdfs:seeAlso [
+    a sdo:DigitalDocument;
+    sdo:name "Ocean Decade Vision 2030 White Papers: Challenge 8: Create a digital representation of the ocean"@en ;
+    sdo:datePublished "2024"^^xsd:gYear;
+    sdo:url <https://doi.org/10.25607/bxhy-ra59>
+  ], [
+    a sdo:Organization;
+    sdo:name "Decade Coordination Office for Ocean Data Sharing"@en;
+    sdo:url <https://oceandecade.org/actions/decade-coordination-office-for-ocean-data-sharing/>
+  ], [
+    a sdo:Organization;
+    sdo:name "Decade Collaborative Centre for Ocean Prediction"@en;
+    sdo:url <https://oceandecade.org/actions/decade-collaborative-centre-for-ocean-prediction-dcc-op/> ], [
+        a sdo:VideoObject;
+        sdo:name "Ocean Decade Challenge 8: Create a digital representation of the ocean"@en;
+        sdo:url <https://www.youtube.com/watch?v=bE8uFffqelE>
+    ], [
+      a sdo:DigitalDocument;
+      sdo:name "Vision 2030 Challenge 8: towards a comprehensive digital representation of the ocean: strategic ambition for the Ocean Decade Challenge 8"@en;
+      sdo:url <https://doi.org/10.1093/icesjms/fsaf072>;
+      sdo:datePublished "2025"^^xsd:gYear
+  ] .
+
+:mVDokG a skos:Concept;
+  skos:prefLabel "Skills, knowledge and participation for all"@en;
+  skos:notation "Challenge 9";
+  skos:broader :QOy8Js;
+  skos:definition "Ensure comprehensive capacity development and equitable access to data, information, knowledge and technology across all aspects of ocean science and for all stakeholders."@en;
+  skos:inScheme :;
+  dct:source <https://oceandecade.org/challenges/>;
+  dct:created "2026-07-22"^^xsd:date;
+  dct:modified "2026-07-23"^^xsd:date;
+  rdfs:seeAlso [
+      a sdo:DigitalDocument;
+      sdo:name "Ocean Decade Vision 2030 White Papers: Challenge 9: Skills, knowledge, technology and participatory decisionmaking for all"@en;
+      sdo:url <https://doi.org/10.25607/k5pt-fp54>;
+      sdo:datePublished "2024"^^xsd:gYear
+  ], [
+      a sdo:VideoObject;
+      sdo:name "Ocean Decade Challenge 9: Deliver skills, knowledge and technology to all"@en;
+      sdo:url <https://www.youtube.com/watch?v=V7XPKQSpEEU>
+  ], [
+      a sdo:DigitalDocument;
+      sdo:name "Forging a pathway for connecting skills, knowledge, technology, and participatory decision-making for all through the UN Ocean Decade Challenge 9"@en;
+      sdo:url <https://doi.org/10.1093/icesjms/fsae174>;
+      sdo:datePublished "2025"^^xsd:gYear
+  ] .
+  
+:Xd6PGU a skos:Concept;
+  skos:prefLabel "Restore society's relationship with the ocean"@en;
+  skos:notation "Challenge 10";
+  skos:broader :QOy8Js;
+  skos:definition "Meaningful society-ocean connections are strengthened, driving increased motivation, capability and opportunity for people, across all sectors of society, to make decisions, act and behave in ways that ensure a healthy ocean."@en;
+  skos:inScheme :;
+  dct:source <https://oceandecade.org/challenges/>;
+  dct:created "2026-07-22"^^xsd:date;
+  dct:modified "2026-07-23"^^xsd:date;
+  rdfs:seeAlso [
+      a sdo:DigitalDocument;
+      sdo:name "Ocean Decade Vision 2030 White Papers: Challenge 10: Restoring society's relationship with the ocean"@en;
+      sdo:url <https://doi.org/10.25607/ekwn-wh61>;
+      sdo:datePublished "2024"^^xsd:gYear
+  ], [
+      a sdo:Organization;
+      sdo:name "Decade Coordination Office for Connecting People and Ocean"@en;
+      sdo:url <https://oceandecade.org/actions/decade-coordination-office-for-connecting-people-and-ocean/>
+  ], [
+      a sdo:VideoObject;
+      sdo:name "Ocean Decade Challenge 10: Change Humanity's relationship with the ocean"@en;
+      sdo:url <https://www.youtube.com/watch?v=EzaPG-cqj3Q>
+  ], [
+      a sdo:DigitalDocument;
+      sdo:name "Ocean Decade Challenge 10 underscores social dynamics in marine sciences as critical to transforming human–ocean relationships"@en;
+      sdo:url <https://doi.org/10.1093/icesjms/fsaf030>;
+      sdo:datePublished "2025"^^xsd:gYear
+  ] .
+
+:V9sJQA a skos:Concept;
+  skos:prefLabel "A clean ocean"@en;
+  skos:definition "Society generates a vast range of pollutants and contaminants, including marine debris, plastic, excess nutrients, anthropogenic underwater noise, hazardous chemicals, organic toxins and heavy metals. These pollutants and contaminants derive from a wide variety of land- and sea based sources, including point and non-point sources. The resulting pollution is unsustainable for the ocean and jeopardizes ecosystems, human health and livelihoods. It will be critical to fill urgent knowledge gaps and generate priority interdisciplinary and co-produced knowledge on the causes and sources of pollution and its effects on ecosystems and human health. This knowledge will underpin solutions co-designed by multiple stakeholders to eliminate pollution at the source, mitigate harmful activities, remove pollutants from the ocean and support the transition of society into a circular economy."@en;
+  skos:broader :LC251f;
+  skos:inScheme :;
+  dct:source <https://unesdoc.unesco.org/ark:/48223/pf0000377082>;
+  dct:created "2026-07-22"^^xsd:date;
+  dct:modified "2026-07-23"^^xsd:date .
+
+:RMaPyJ a skos:Concept;
+  skos:prefLabel "A healthy and resilient ocean"@en;
+  skos:definition "Degradation of marine ecosystems is accelerating due to unsustainable activities on land and in the ocean. To sustainably manage, protect or restore marine and coastal ecosystems, priority knowledge gaps of ecosystems, and their reactions to multiple stressors, need to be filled. This is particularly true where multiple human stressors interact with climate change, including acidification and temperature increase. Such knowledge is important to develop tools to implement management frameworks that build resilience, recognize thresholds and avoid ecological tipping points, and thus ensure ecosystem functioning and continued delivery of ecosystem services for the health and well-being of society and the planet as a whole. "@en;
+  skos:broader :LC251f;
+  skos:inScheme :;
+  dct:source <https://unesdoc.unesco.org/ark:/48223/pf0000377082>;
+  dct:created "2026-07-22"^^xsd:date;
+  dct:modified "2026-07-23"^^xsd:date .
+
+:PUJx4T a skos:Concept;
+  skos:prefLabel "A productive ocean"@en;
+  skos:definition "The ocean is the foundation for future global economic development and human health and well-being, including food security and secure livelihoods for hundreds of millions of the world's poorest people. Knowledge and tools to support the recovery of wild fish stocks, deploy sustainable fisheries management practices and support the sustainable expansion of aquaculture, while protecting essential biodiversity and ecosystems, will be essential. The ocean also provides essential goods and services to a wide range of established and emerging industries, including extractive industries, energy, tourism, transport and pharmaceutical industries. Each of these sectors has specific, priority needs in terms of increased knowledge and support to innovation, technological development and decision support tools to minimize risk, avoid lasting harm and optimize their contribution to the development of a sustainable ocean economy. Governments also require information and tools, for example via national accounts that incorporate ocean indicators, to guide development of sustainable ocean economies and promote marine sectors."@en;
+  skos:broader :LC251f;
+  skos:inScheme :;
+  dct:source <https://unesdoc.unesco.org/ark:/48223/pf0000377082>;
+  dct:created "2026-07-22"^^xsd:date;
+  dct:modified "2026-07-23"^^xsd:date .
+  
+:m6RMnm a skos:Concept;
+  skos:prefLabel "A predicted ocean"@en;
+  skos:definition "The vast volume of the ocean is neither adequately mapped nor observed, nor is it fully understood. Exploration and understanding of key elements of the changing ocean, including its physical, chemical and biological components and interactions with the atmosphere and cryosphere, are essential, particularly under a changing climate. Such knowledge is required from the land-sea interface along the world's coasts to the open ocean and from the surface to the deep ocean seabed. It needs to include past, current and future ocean conditions. More relevant and integrated understanding and accurate prediction of ocean ecosystems and their responses and interactions will underpin the implementation of ocean management that is dynamic and adaptive to a changing environment and changing uses of the ocean."@en;
+  skos:broader :LC251f;
+  skos:inScheme :;
+  dct:source <https://unesdoc.unesco.org/ark:/48223/pf0000377082>;
+  dct:created "2026-07-22"^^xsd:date;
+  dct:modified "2026-07-23"^^xsd:date .
+  
+:AIJZ3U a skos:Concept;
+  skos:prefLabel "A safe ocean"@en;
+  skos:definition "Hydro-meteorological, geophysical, biological and human-induced hazards create devastating, cascading and unsustainable impacts for coastal communities, ocean users, ecosystems and economies. The changing frequency and/or intensity of weather- and climate- related hazards is exacerbating these risks. Mechanisms and processes for assessing priority risks, mitigating, forecasting and warning of these hazards and formulating adaptive responses are required to reduce short- and longer-term risks on land and at sea. Higher density ocean data and improved forecast systems - including those related to sea level, marine weather and climate - are needed from near real time through to decadal scales. When these enhancements are linked to education, outreach and communication, they will empower policy and decision-making and they will mainstream individual and community resilience."@en;
+  skos:broader :LC251f;
+  skos:inScheme :;
+  dct:source <https://unesdoc.unesco.org/ark:/48223/pf0000377082>;
+  dct:created "2026-07-22"^^xsd:date;
+  dct:modified "2026-07-23"^^xsd:date .
+
+:yPHGUL a skos:Concept;
+  skos:prefLabel "An accessible ocean"@en;
+  skos:definition "Inequalities in ocean science capacity and capabilities need to be eradicated through simultaneously improving access to and quality control of data, knowledge and technology. This needs to be coupled with increased skills and opportunities to engage in data collection, knowledge generation and technological development, particularly in LDCs, SIDS and LLDCs. Increased dissemination of quality controlled and relevant ocean knowledge to the scientific community, governments, educators, business and industry and the public, through relevant and accessible products, will improve management, innovation and decision-making, contributing to societal goals of sustainable development."@en;
+  skos:broader :LC251f;
+  skos:inScheme :;
+  dct:source <https://unesdoc.unesco.org/ark:/48223/pf0000377082>;
+  dct:created "2026-07-22"^^xsd:date;
+  dct:modified "2026-07-23"^^xsd:date .
+
+:UzeSvO a skos:Concept;
+  skos:prefLabel "An inspiring and engaging ocean"@en;
+  skos:definition "In order to incite behaviour change and ensure the effectiveness of solutions developed under the Ocean Decade, there needs to be a step change in society's relationship with the ocean. This can be achieved through ocean literacy approaches, formal and informal educational and awareness-raising tools, and through measures to ensure equitable physical access to the ocean. Together, these approaches will build a significantly broader understanding of the economic, social and cultural values of the ocean by society and the plurality of roles that it plays to underpin health, well-being and sustainable development. This Outcome will highlight the ocean as a place of wonder and inspiration, thus also influencing the next generation of scientists, policy-makers, government officials, managers and innovators. "@en;
+  skos:broader :LC251f;
+  skos:inScheme :;
+  dct:source <https://unesdoc.unesco.org/ark:/48223/pf0000377082>;
+  dct:created "2026-07-22"^^xsd:date;
+  dct:modified "2026-07-23"^^xsd:date .
+
+:ghguns a skos:Concept;
+    skos:prefLabel "Thematic solution area"@en;
+    skos:inScheme :;
+    skos:broader :saRGpW;
+    skos:narrower :Z5SjUB,
+                  :j81JTe,
+                  :YxoZ9j,
+                  :KTl6uu,
+                  :vYNdv9;
+    dct:source <https://oceandecade.org/news/accelerating-ocean-solutions-to-2030-and-beyond-from-knowledge-to-action-through-the-ocean-decade/>;
+    dct:created "2026-07-23"^^xsd:date;
+    dct:modified "2026-07-23"^^xsd:date.
+
+:KT6YV8 a skos:Concept;
+    skos:prefLabel "Core solution area"@en;
+    skos:inScheme :;
+    skos:broader :saRGpW;
+    skos:narrower :nmPTDw,
+                  :E7p9Y1,
+                  :HIjjPI;
+    dct:source <https://oceandecade.org/news/accelerating-ocean-solutions-to-2030-and-beyond-from-knowledge-to-action-through-the-ocean-decade/>;
+    dct:created "2026-07-23"^^xsd:date;
+    dct:modified "2026-07-23"^^xsd:date.
+
+:Z5SjUB a skos:Concept;
+    skos:prefLabel "How we protect ocean life from coast to deep sea"@en;
+    skos:altLabel "Ocean Life"@en;
+    skos:inScheme :;
+    skos:broader :ghguns;
+    dct:source <https://oceandecade.org/news/accelerating-ocean-solutions-to-2030-and-beyond-from-knowledge-to-action-through-the-ocean-decade/>;
+    dct:created "2026-07-23"^^xsd:date;
+    dct:modified "2026-07-23"^^xsd:date.
+
+:j81JTe a skos:Concept;
+    skos:prefLabel "How we safeguard ocean health under multiple climate and pollution stressors"@en;
+    skos:altLabel "Ocean Health"@en;
+    skos:inScheme :;
+    skos:broader :ghguns;
+    dct:source <https://oceandecade.org/news/accelerating-ocean-solutions-to-2030-and-beyond-from-knowledge-to-action-through-the-ocean-decade/>;
+    dct:created "2026-07-23"^^xsd:date;
+    dct:modified "2026-07-23"^^xsd:date.
+    
+:YxoZ9j a skos:Concept;
+    skos:prefLabel "How we support resilient coastal human communities and ecosystems"@en;
+    skos:altLabel "Coastal Resilience"@en;
+    skos:inScheme :;
+    skos:broader :ghguns;
+    dct:source <https://oceandecade.org/news/accelerating-ocean-solutions-to-2030-and-beyond-from-knowledge-to-action-through-the-ocean-decade/>;
+    dct:created "2026-07-23"^^xsd:date;
+    dct:modified "2026-07-23"^^xsd:date.
+    
+:KTl6uu a skos:Concept;
+    skos:prefLabel "How we enhance sustainable ocean food systems"@en;
+    skos:altLabel "Ocean Food Systems"@en;
+    skos:inScheme :;
+    skos:broader :ghguns;
+    dct:source <https://oceandecade.org/news/accelerating-ocean-solutions-to-2030-and-beyond-from-knowledge-to-action-through-the-ocean-decade/>;
+    dct:created "2026-07-23"^^xsd:date;
+    dct:modified "2026-07-23"^^xsd:date.
+    
+:vYNdv9 a skos:Concept;
+    skos:prefLabel "How we shape ocean economies that benefit both people and ocean"@en;
+    skos:altLabel "Ocean Economies"@en;
+    skos:inScheme :;
+    skos:broader :ghguns;
+    dct:source <https://oceandecade.org/news/accelerating-ocean-solutions-to-2030-and-beyond-from-knowledge-to-action-through-the-ocean-decade/>;
+    dct:created "2026-07-23"^^xsd:date;
+    dct:modified "2026-07-23"^^xsd:date.
+
+:nmPTDw a skos:Concept;
+    skos:prefLabel "How we deliver data, observations, and services for ocean management"@en;
+    skos:altLabel "Ocean Information and Services"@en;
+    skos:inScheme :;
+    skos:broader :KT6YV8;
+    dct:source <https://oceandecade.org/news/accelerating-ocean-solutions-to-2030-and-beyond-from-knowledge-to-action-through-the-ocean-decade/>;
+    dct:created "2026-07-23"^^xsd:date;
+    dct:modified "2026-07-23"^^xsd:date.
+    
+:E7p9Y1 a skos:Concept;
+    skos:prefLabel "How we mobilize long-term investment for ocean impact"@en;
+    skos:altLabel "Ocean Investment"@en;
+    skos:inScheme :;
+    skos:broader :KT6YV8;
+    dct:source <https://oceandecade.org/news/accelerating-ocean-solutions-to-2030-and-beyond-from-knowledge-to-action-through-the-ocean-decade/>;
+    dct:created "2026-07-23"^^xsd:date;
+    dct:modified "2026-07-23"^^xsd:date.
+    
+:HIjjPI a skos:Concept;
+    skos:prefLabel "How we strengthen access to skills and inspiration for ocean action"@en;
+    skos:altLabel "Ocean Skills and Inspiration"@en;
+    skos:inScheme :;
+    skos:broader :KT6YV8;
+    dct:source <https://oceandecade.org/news/accelerating-ocean-solutions-to-2030-and-beyond-from-knowledge-to-action-through-the-ocean-decade/>;
+    dct:created "2026-07-23"^^xsd:date;
+    dct:modified "2026-07-23"^^xsd:date.
